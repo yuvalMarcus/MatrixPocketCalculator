@@ -1,0 +1,32 @@
+  read_mat MAT_A, 1, 2, 3, 4, 1, 	2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4
+,print_mat MAT_A
+	print_mat MAT_A
+read_mat MAT_B, 2, 2, 2, 0, 2, 	2, 2, 0, 2, 2, 2, 0, 2, 2, 2, 0
+print_mat MAT_B
+	add_mat MAT_A	, MAT_B, MAT_C
+    		print_mat MAT_C 	
+	sub_mat MAT_A, MAT_C , MAT_D
+	print_mat MAT_D 	
+print_mat
+		 print_mat mat_d
+mul_scalar MAT_D, -3FDAA, MAT_E
+	  mul_scalar MAT_D, -3 , MAT_E
+print_mat MAT_E
+trans_mat MAT_E   , MAT_E 
+	print_mat MAT_E  
+print_mat MAT_F
+	read_mat MAT_F sd
+print_mat MAT_F
+			read_mat MAT_F 4
+print_mat MAT_F
+	add_mat MAT_B, MAT_C, MAT_F 34c
+				trans_mat MAT_C ,,MAT_F
+trans_mat MAT_C , MAT_F
+	print_mat MAT_F ,
+print_mat  MAT_F
+print_mat  MAT_A
+   			trans_mat MAT_A   , MAT_A
+print_mat  MAT_A
+	mul_scalar MAT_A 2.5 , MAT_A
+mul_scalar MAT_A 	,2.5 , MAT_A
+print_mat  MAT_A
